@@ -57,5 +57,43 @@ myFunction();
     const Brand = ["Volvo", "Jeep", "Mercedes"]; 
     Brand[0] = "Ford"
     console.log(Brand)
-    
-    
+
+
+// problem solve 9: Math Related Problems
+
+        //solve 1:  Use the correct Math method to create a random number.
+
+const randomNumber = Math.random(); 
+    console.log(randomNumber);
+
+
+
+// solve 2 :Use the correct Math method to return the largest number of 10 and 20.
+const bigNumber = Math.max(10, 20);
+console.log(bigNumber)
+
+
+// solve 3:  Use the correct Math method to get the square root of 9.
+const squarRoot = Math.sqrt(9);
+console.log(squarRoot);
+
+
+
+
+// problem solve 10: comparison operator related problems! 
+
+// solve 1: Choose the correct comparison operator to alert true, when x is greater than y.
+// (check html file )
+const x = 10;
+const y = 5;
+
+alert(x > y)
+
+
+
+
+// solve 2. Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
+let age = 18;
+
+let message = age < 18 ? "Too young" : "Old enough";
+console.log(message)
