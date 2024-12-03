@@ -2,12 +2,12 @@
 
 
 
-// function celsiusToFahrenheit(celsius) {
-//     return (celsius * 9/5) + 32;
-//   }
+function celsiusToFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+  }
   
-//   console.log(celsiusToFahrenheit(0));  
-//   console.log(celsiusToFahrenheit(25)); 
+  console.log(celsiusToFahrenheit(0));  
+  console.log(celsiusToFahrenheit(25)); 
   
 
 
@@ -15,12 +15,12 @@
 //   problem solve 2: 2. Write a function to check if a number is even. The function should take a single argument, which is the number to check.
 
 
-// function isEven(num) {
-//     return num % 2 === 0;
-//   }
+function isEven(num) {
+    return num % 2 === 0;
+  }
   
-//   console.log(isEven(4)); 
-//   console.log(isEven(7)); 
+  console.log(isEven(4)); 
+  console.log(isEven(7)); 
   
 
 
@@ -36,24 +36,24 @@ function sum(a , b) {
 
 //   problem solve 4: Write a function to find the smallest number in an array. The function should take a single argument, which is the array to search.
 
-// function findSmallestNum(arr) {
-//     return Math.min(...arr);
-//   }
+function findSmallestNum(arr) {
+    return Math.min(...arr);
+  }
   
-//   console.log(findSmallestNum([3, 5, 1, 9]));  
-//   console.log(findSmallestNum([-1, -5, 0, 10])); 
+  console.log(findSmallestNum([3, 5, 1, 9]));  
+  console.log(findSmallestNum([-1, -5, 0, 10])); 
   
 
 
-//   problem solve 5: 
+//   problem solve 5: Write a function to count the number of vowels in a string. The function should take a single argument, which is the string to search.
 
-// function countVowels(str) {
-//     let vowels = 'aeiouAEIOU';
-//     return count;
-//   }
+function countVowels(str) {
+    let vowels = 'aeiouAEIOU';
+    return count;
+  }
   
-//   console.log(countVowels("hello world")); 
-//   console.log(countVowels("Javascript")); 
+  console.log(countVowels("hello world")); 
+  console.log(countVowels("Javascript")); 
   
 
 
